@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container py-2">
         <div className="flex justify-between items-center gap-4">
           {/* logo section */}
-          <div className="flex">
+          <div data-aos="fade-down" data-aos-once="true">
            
             <a href="#" className="font-bold 
             text-2xl sm:text-3xl 
@@ -43,7 +43,8 @@ const Navbar = () => {
 
 
           {/* link section */}
-          <div className="flex justify-center itemc-center gap-4">
+          <div  data-aos="fade-down" data-aos-once="true" data-aos-delay="300"
+           className="flex justify-center itemc-center gap-4">
             <ul className="hidden sm:flex items-center gap-4">
                 {
                     Menus.map((data, index) => (

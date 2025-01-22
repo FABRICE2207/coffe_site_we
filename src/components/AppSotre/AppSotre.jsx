@@ -18,7 +18,7 @@ const AppSotre = () => {
       <div style={backgroundStyle} className='py-14'>
         <div className='container'>   
           <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
-            <div className='space-y-6 max-w-xl mx-w-xl mx-auto'>
+            <div data-aos="fade-up" data-aos-duration="300" className='space-y-6 max-w-xl mx-w-xl mx-auto'>
               {/* text-content */}
               <h1 className='text-2xl text-center sm:text-left sm:text-4xl 
               font-semibold pl-3 text-white/90'>
